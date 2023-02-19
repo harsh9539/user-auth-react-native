@@ -13,6 +13,7 @@ function AuthStack() {
   return (
     <Stack.Navigator
       screenOptions={{
+        animation:'slide_from_right',
         headerStyle: { backgroundColor: Colors.primary500 },
         headerTintColor: 'white',
         contentStyle: { backgroundColor: Colors.primary100 },
