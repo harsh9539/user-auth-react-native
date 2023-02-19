@@ -27,7 +27,7 @@ export default function AuthContextProvider({children}){
     }
 
     return (
-        <AuthContext.Provider>
+        <AuthContext.Provider value={value}>
             {children}
         </AuthContext.Provider>
     )
